@@ -6,7 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-
+var pagesRouter = require('./routes/pages');
 var app = express();
 
 // view engine setup
@@ -19,8 +19,15 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/rest', usersRouter);
+app.use('/pages', pagesRouter);
+
+app.use(function(req, res, next) {
+  if (req.path.startsWith('/rest') && !req.path.startsWith('/pages')) {
+    return next(createError(404, 'Route not found'));
+  }
+  next();
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -1,0 +1,105 @@
+{
+    "results": [
+      {
+        "gender": "female",
+        "name": {
+          "title": "Mrs",
+          "first": "Susana",
+          "last": "Caballero"
+        },
+        "email": "susana.caballero@example.com",
+        "id": {
+          "name": "DNI",
+          "value": "60314560-Q"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/women/61.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/61.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/61.jpg"
+        },
+        "nat": "ES"
+      },
+      {
+        "gender": "male",
+        "name": {
+          "title": "Mr",
+          "first": "Melvin",
+          "last": "Flatås"
+        },
+        "email": "melvin.flatas@example.com",
+        "id": {
+          "name": "FN",
+          "value": "17019212165"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/48.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/48.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/48.jpg"
+        },
+        "nat": "NO"
+      },
+      {
+        "gender": "male",
+        "name": {
+          "title": "Mr",
+          "first": "Vilho",
+          "last": "Tolonen"
+        },
+        "email": "vilho.tolonen@example.com",
+        "id": {
+          "name": "HETU",
+          "value": "NaNNA249undefined"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/9.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/9.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/9.jpg"
+        },
+        "nat": "FI"
+      },
+      {
+        "gender": "male",
+        "name": {
+          "title": "Mr",
+          "first": "Aaron",
+          "last": "Howard"
+        },
+        "email": "aaron.howard@example.com",
+        "id": {
+          "name": "PPS",
+          "value": "5746674T"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/48.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/48.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/48.jpg"
+        },
+        "nat": "IE"
+      },
+      {
+        "gender": "male",
+        "name": {
+          "title": "Mr",
+          "first": "Flenn",
+          "last": "Mendoza"
+        },
+        "email": "flenn.mendoza@example.com",
+        "id": {
+          "name": "PPS",
+          "value": "7456808T"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/18.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/18.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/18.jpg"
+        },
+        "nat": "IE"
+      }
+    ],
+    "info": {
+      "seed": "51e6a772d7718a58",
+      "results": 5,
+      "page": 1,
+      "version": "1.4"
+    }
+  }
